@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: a9360803b55c55a40b660e5083d05ce6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Raw Grey Concrete
+    prototypeName: Raw Grey Concrete
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://concrete_raw_grey\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: Raw Grey Concrete - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Raw Grey Concrete - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Raw Grey Concrete - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Raw Grey Concrete - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Raw Grey Concrete - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Raw Grey Concrete - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Raw Grey Concrete - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Raw Grey Concrete - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: -5889523073336480683, guid: a9360803b55c55a40b660e5083d05ce6,
+      type: 3}
+    generatedTextures:
+    - {fileID: 7372765392024184320, guid: a9360803b55c55a40b660e5083d05ce6, type: 3}
+    - {fileID: -5205959516591093293, guid: a9360803b55c55a40b660e5083d05ce6, type: 3}
+    - {fileID: 2427791837754722201, guid: a9360803b55c55a40b660e5083d05ce6, type: 3}
+    - {fileID: 2884399254305758371, guid: a9360803b55c55a40b660e5083d05ce6, type: 3}
+  - graphLabel: Raw Grey Concrete_1
+    prototypeName: Raw Grey Concrete
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://concrete_raw_grey\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: Raw Grey Concrete_1 - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Raw Grey Concrete_1 - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Raw Grey Concrete_1 - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Raw Grey Concrete_1 - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Raw Grey Concrete_1 - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Raw Grey Concrete_1 - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Raw Grey Concrete_1 - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Raw Grey Concrete_1 - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: -5652063699494707822, guid: a9360803b55c55a40b660e5083d05ce6,
+      type: 3}
+    generatedTextures: []
